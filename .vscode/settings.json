@@ -1,0 +1,21 @@
+{
+    "netbeans.jdkhome": "c:\\Program Files\\Amazon Corretto\\jdk21.0.5_11",
+    "netbeans.project.jdkhome": "c:\\Program Files\\Amazon Corretto\\jdk21.0.5_11",
+    "java.jdt.ls.java.home": "c:\\Program Files\\Amazon Corretto\\jdk21.0.5_11",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-21",
+            "path": "c:\\Program Files\\Amazon Corretto\\jdk21.0.5_11"
+        }
+    ],
+    "terminal.integrated.env.windows": {
+        "JAVA_HOME": "c:\\Program Files\\Amazon Corretto\\jdk21.0.5_11",
+        "PATH": "c:\\Program Files\\Amazon Corretto\\jdk21.0.5_11\\bin;${env:PATH}"
+    },
+    "maven.terminal.customEnv": [
+        {
+            "environmentVariable": "JAVA_HOME",
+            "value": "c:\\Program Files\\Amazon Corretto\\jdk21.0.5_11"
+        }
+    ]
+}
