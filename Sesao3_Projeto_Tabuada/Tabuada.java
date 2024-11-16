@@ -1,4 +1,4 @@
-package Sesao3;
+package Sesao3_Projeto_Tabuada;
 
 //Projeto tabuada
 //Receber um numero pelo Scanner e exebir a tabuada do numero
