@@ -23,6 +23,15 @@ public class Funcoes {
         System.out.println("O número dobrado é: " + numeroDobrado);
         System.out.println(dobrar(12));
 
+        //Retorno em váriaveis
+        String r1 = verificarPar(numero);
+
+        String r2 = verificarPar(3);
+
+        System.out.println(r1);
+
+        System.out.println(r2);
+
     }
 
     // nivel de acesso, static => nao preciso instanciar classe para executar, tipo retorno
@@ -40,7 +49,15 @@ public class Funcoes {
         System.out.println("O resultado da soma é: " + resultado);
     }
 
+    // Parametros de funcões diferentes, podem ter o mesmo nome "int n"
     public static int dobrar(int n){
         return n * 2;
+    }
+    public static String verificarPar(int n){
+        if (n % 2 ==  0){
+            return "O número " + n + " é par";
+        } else {
+            return "O número " + n + " não é par";
+        }
     }
 }
